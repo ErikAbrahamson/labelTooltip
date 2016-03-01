@@ -5,12 +5,13 @@ prism.labelTooltip = function(widget, widgetArgs, labelSize) {
         var labelSize = labelSize || 10;
 
         _.each(widgetArgs.seriesIndexes, function(i) {
-            if (args.options.series.length > i) {
+            var props = args.options.series;
+            if (props.length > i) {
 
                 // Truncate labels
-                console.log(args.options.series[i]);
-                var elipsys = args.options.series[i].label.length < 6 ? '' : '...';
-                args.options.series[i].label = args.options.series[i].label.substring(0, labelSize) + ellipsys;
+                console.log(props[i]);
+                var elipsys = props[i].label.length < 6 ? '' : '...';
+                props[i].label = props[i].label.substring(0, labelSize) + ellipsys;
             }
         });
     });
