@@ -1,0 +1,7 @@
+{
+	name: "labelTooltip",
+	source: [
+        "labelTooltip.js"
+    ],
+    style: []
+}
