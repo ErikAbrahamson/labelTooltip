@@ -10,7 +10,7 @@ prism.labelTooltip = function(widget, widgetArgs, labelSize) {
                 // Truncate labels here
                 console.log(args.options.series[i]);
                 var elipsys = args.options.series[i].label.length < 6 ? '' : '...';
-                args.options.series[i].label.substring(0, labelSize) + ellipsys;
+                args.options.series[i].label = args.options.series[i].label.substring(0, labelSize) + ellipsys;
             }
         });
     });
