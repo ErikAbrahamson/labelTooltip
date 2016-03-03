@@ -1,7 +1,9 @@
 {
 	name: "labelTooltip",
 	source: [
-        "labelTooltip.js"
+        "labelTooltip.js",
+		"customEvents.js",
+		"tooltipsy.js"
     ],
     style: []
 }
