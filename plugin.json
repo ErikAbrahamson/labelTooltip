@@ -1,9 +1,7 @@
 {
-	name: "labelTooltip",
+	name: "labelTruncate",
 	source: [
-        "labelTooltip.js",
-		"customEvents.js",
-		"tooltipsy.js"
+        "main.js"
     ],
     style: []
 }
