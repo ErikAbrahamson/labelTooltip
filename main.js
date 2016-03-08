@@ -1,4 +1,6 @@
 (function(ns) {
+    'use strict';
+    
     ns.labelTruncate = function(w, size) {
     	w.on('beforeviewloaded', function(w, args) {
             size = size || 10;
