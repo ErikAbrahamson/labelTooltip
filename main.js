@@ -2,7 +2,6 @@
     'use strict';
 
     ns.labelTruncate = function(w, size) {
-
         var supportedChartTypes = ['chart/column'];
         function widgetIsSupported(type) {
             if (supportedChartTypes.indexOf(type) >= 0) return true;
